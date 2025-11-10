@@ -147,3 +147,43 @@ footer {
     font-size: 14px;
   }
 }
+
+
+
+
+
+.spec-table.exact-layout {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-size: 15px;
+  background: #fff;
+}
+
+.spec-table.exact-layout th,
+.spec-table.exact-layout td {
+  border: 1px solid #000;
+  padding: 10px 12px;
+  vertical-align: top;
+}
+
+.spec-table.exact-layout th {
+  width: 30%;
+  font-weight: bold;
+  background: #f5f5f5;
+  text-transform: none;
+  color: #000;
+}
+
+.spec-table.exact-layout td {
+  width: 70%;
+  color: #111;
+  line-height: 1.6;
+}
+
+.watts {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 15px;
+  font-weight: bold;
+}
